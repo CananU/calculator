@@ -2,18 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <link src="script.js" type="text-javascript" />
   </head>
    <body>
-     <div class="container">
-        <div class ="calc-input">
-            <p name="user=input" id="userinput"></p>
+    <div class="container">
+      <div class ="calc-input">
+        <p name="user=input" id="userinput">0</p>
+      </div>
 
-        </div>
         <div class="calc-keys">
-            <button type="button" class="numbers">0</button>
+            <button type="button" class="others operations">AC</button>
+            <button type="button" class="others operations">DEL</button>
+            <button type="button" class="key-zero">0</button>
             <button type="button" class="numbers">1</button>
             <button type="button" class="numbers">2</button>
             <button type="button" class="numbers">3</button>
@@ -23,13 +26,12 @@
             <button type="button" class="numbers">7</button>
             <button type="button" class="numbers">8</button>
             <button type="button" class="numbers">9</button>
-            <button type="button" class="key-operate operations">+</button>
-            <button type="button" class="key-operate operations">=</button>
-            <button type="button" class="key-operate operations">-</button>
-            <button type="button" class="key-operate operations">%</button>
-            <button type="button" class="key-operate operations">x</button>
+            <button type="button" class="operations">+</button>
+            <button type="button" class="operations operations">=</button>
+            <button type="button" class="operations">-</button>
+            <button type="button" class="operations">/</button>
+            <button type="button" class="operations">x</button>
         </div>
        </div>
     </body>
-    <script src="script.js" type="text-javascript"></script>
 </html>
