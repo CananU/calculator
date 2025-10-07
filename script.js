@@ -1,5 +1,5 @@
+document.addEventListener("DOMContentLoaded", (event) => {
 const inputValue= document.getElementById("user-input");
-
 const calculate = document
    .querySelectorAll(".operations")
    .forEach(function (item) {
@@ -28,6 +28,7 @@ const calculate = document
   });
   
 const number = document.querySelectorAll(".numbers").forEach(function (item) {
+console.log("anything")
   item.addEventListener("click", function (e) {
     if (inputValue.innerText ==="NaN") {
       inputValue.innerText="";
@@ -38,3 +39,5 @@ const number = document.querySelectorAll(".numbers").forEach(function (item) {
     inputValue.innerText += e.target.innerHTML.trim();
   });
 });
+});
+
